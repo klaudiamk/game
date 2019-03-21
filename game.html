@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trivia Game</title>
+<link rel = "stylesheet" type = "text/css" href = "game.css">
+<link rel = "stylesheet" type = "text/javascript" href = "game.js">
+<script src = "game.js"></script>
+</head>
+
+<body>
+
+  <h1> Disney Trivia Game </h1>
+
+  <form id = "quiz" name = "quiz">
+
+  <p>What movie is Prince Charming from?</p>
+  <input id = "textbox" type = "text" name = "question1">
+
+  <p>During the ballroom scene in Beauty and the Beast, what color is Belle's gown?</p>
+  <input type = "radio" id = "mc" name = "question2">Blue<br>
+  <input type = "radio" id = "mc" name = "question2">Yellow<br>
+  <input type = "radio" id = "mc" name = "question2">Red<br>
+  <input type = "radio" id = "mc" name = "question2">Green<br>
+
+  <p>How many eggs does Gaston eat daily?</p>
+  <input type = "radio" id = "mc" name = "question3">12 eggs<br>
+  <input type = "radio" id = "mc" name = "question3">5 eggs<br>
+  <input type = "radio" id = "mc" name = "question3">5 dozen eggs<br>
+  <input type = "radio" id = "mc" name = "question3">17 dozen eggs<br>
+
+
+<br>
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+</form>
+
+<div id = "afterSubmit">
+  <p id = "message"></p>
+  <p id = "numberCorrect"></p>
+</div>
+
+</html>
+</body>
