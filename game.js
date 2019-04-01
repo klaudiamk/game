@@ -112,6 +112,3 @@ document.getElementById("numberCorrect").innerHTML = "You got " + correct + " co
 
 }
 
-function reset() {
-
-}
