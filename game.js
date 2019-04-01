@@ -26,6 +26,7 @@ question1 = question1.toUpperCase();
 question7 = question7.toUpperCase();
 question9 = question9.toUpperCase();
 question10 = question10.toUpperCase();
+
   if (question1 == "RAPUNZEL"){
     correct++;
   }
