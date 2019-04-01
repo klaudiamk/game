@@ -111,7 +111,3 @@ document.getElementById("message").innerHTML = messages [range];
 document.getElementById("numberCorrect").innerHTML = "You got " + correct + " correct.";
 
 }
-
-function reset() {
-
-}
